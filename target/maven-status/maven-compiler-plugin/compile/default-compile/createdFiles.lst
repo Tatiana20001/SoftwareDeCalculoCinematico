@@ -1,0 +1,8 @@
+ec\edu\espoch\softwaredecalculocinematico\App.class
+ec\edu\espoch\softwaredecalculocinematico\modelo\interfaces\ICalculadora.class
+module-info.class
+ec\edu\espoch\softwaredecalculocinematico\controller\interfaces\PrimaryController$FilaTabla.class
+ec\edu\espoch\softwaredecalculocinematico\controller\usecase\ControladorCinematica.class
+ec\edu\espoch\softwaredecalculocinematico\modelo\implementation\Calculadora.class
+ec\edu\espoch\softwaredecalculocinematico\controller\interfaces\PrimaryController.class
+ec\edu\espoch\softwaredecalculocinematico\modelo\objetos\DatosCinematica.class

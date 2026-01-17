@@ -1,0 +1,6 @@
+.fondo { -fx-background-color: #ffffff; }
+.titulo { -fx-font-family: "System"; -fx-font-size: 28px; -fx-font-weight: bold; }
+.borde-azul { -fx-border-color: #3498db; -fx-border-width: 2px; }
+.btn-verde { -fx-background-color: #27ae60; -fx-text-fill: white; -fx-background-radius: 5; }
+.btn-azul { -fx-background-color: #3498db; -fx-text-fill: white; -fx-background-radius: 5; }
+.btn-rojo { -fx-background-color: #c0392b; -fx-text-fill: white; -fx-background-radius: 5; }
