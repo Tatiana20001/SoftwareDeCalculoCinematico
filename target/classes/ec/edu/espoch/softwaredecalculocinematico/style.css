@@ -1,6 +1,66 @@
-.fondo { -fx-background-color: #ffffff; }
-.titulo { -fx-font-family: "System"; -fx-font-size: 28px; -fx-font-weight: bold; }
-.borde-azul { -fx-border-color: #3498db; -fx-border-width: 2px; }
-.btn-verde { -fx-background-color: #27ae60; -fx-text-fill: white; -fx-background-radius: 5; }
-.btn-azul { -fx-background-color: #3498db; -fx-text-fill: white; -fx-background-radius: 5; }
-.btn-rojo { -fx-background-color: #c0392b; -fx-text-fill: white; -fx-background-radius: 5; }
+.root {
+    -fx-background-color: #f4f7f9;
+    -fx-font-family: "Segoe UI", Arial;
+}
+
+/* CABECERA: Forzamos el tamaño del título */
+.top-bar {
+    -fx-background-color: #1f4e79;
+    -fx-padding: 20 30;
+}
+
+.top-title {
+    /* Usamos !important en todo para que el FXML no pueda ignorarlo */
+    -fx-font-family: "Arial Black" !important;
+    -fx-font-size: 15px !important; 
+    -fx-text-fill: white !important;
+    -fx-font-weight: bold !important;
+}
+
+.label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* BOTONES: Más pequeños y delgados */
+.button.btn {
+    -fx-font-size: 12px; /* Un punto más pequeño */
+    -fx-font-weight: bold;
+    -fx-padding: 5 10;   /* Menos relleno interno */
+    -fx-min-width: 130px; /* Reducido de 150 a 130 */
+    -fx-pref-width: 130px;
+    -fx-background-radius: 5;
+    -fx-text-fill: white !important;
+    -fx-cursor: hand;
+}
+
+/* Colores suaves */
+.button.btn-green { -fx-background-color: #2dae60 !important; } 
+.button.btn-blue { -fx-background-color: #3498db !important; }  
+.button.btn-red { 
+    -fx-background-color: #e74c3c !important; 
+    -fx-min-width: 210px; /* Solo este es más ancho por el texto largo */
+    -fx-pref-width: 210px;
+} 
+
+/* TABLA: Estilo institucional azul */
+.table {
+    -fx-border-color: #1f4e79;
+    -fx-border-width: 1;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #1f4e79; 
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent #2c5680 transparent transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white !important; 
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
